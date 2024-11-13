@@ -1,44 +1,10 @@
-#### HTML Structure
+# 🌟 Gallery Modification
 
-- section.wiki
-  - div.container
-    - img
-    - h3(text)
-    - form.form
-      - input.form-input type='text'
-      - button.submit-btn (search) type='submit'
-  - div.results
-    - div.articles
-      - a
-        - h4
-        - p (lorem20)
+## 🚀 Overview
+Disini saya mengubah tatanan awal/default menjadi lebih menarik 
 
-#### API DOCS
-
-- [wiki docs](https://www.mediawiki.org/wiki/API:Main_page)
-
-- ready to go url's
-
-#### Initial Setup
-
-- select form, input, results
-- listen for submit events
-- if empty value, display error
-- create fetchPages()
-- pass valid input value into the fetchPages()
-
-#### Fetch Pages
-
-- display loading while fetching
-- construct dynamic url
-- display if error
-- display error no items
-- create renderResults()
-- pass valid results into renderResults()
-
-#### Render Results
-
-- iterate over the list
-- pull out title, snippet, pageid
-- setup a card
-- set results with div.articles and list inside
+## 📋 Features
+- saya menambahkan fitur histori pencarian.
+- menambahkan fitur hapus untuk pencarian
+- manambahkan fitur read article,link,share dan read book  yang dimana ketika di pencet akan merubah tampilanya
+- menambahkan fitur baca nanti
