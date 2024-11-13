@@ -8,3 +8,4 @@ Disini saya mengubah tatanan awal/default menjadi lebih menarik
 - menambahkan fitur hapus untuk pencarian
 - manambahkan fitur read article,link,share dan read book  yang dimana ketika di pencet akan merubah tampilanya
 - menambahkan fitur baca nanti
+- menambahkan tema gelap dan terang
