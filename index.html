@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wikipedia Search</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <section class="wiki">
+      <div class="container">
+        <div class="theme-toggle-container">
+          <button class="theme-toggle">
+            <span class="toggle-icon">🌙</span>
+          </button>
+        </div>
+        <img src="./wiki-logo.png" alt="wikipedia logo" />
+        <h3>Search Wikipedia</h3>
+        <form class="form">
+          <input type="text" class="form-input" placeholder="Search..." />
+          <button type="submit" class="submit-btn">search</button>
+        </form>
+        <div class="search-history-container">
+          <h4>Recent Searches</h4>
+          <ul class="search-history"></ul>
+        </div>
+      </div>
+      <div class="results"></div>
+    </section>
+    <script src="./app.js"></script>
+  </body>
+</html>
